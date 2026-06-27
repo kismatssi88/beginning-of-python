@@ -1,7 +1,7 @@
 #sum,product ,division ,difference
 a=float(input('enter first number:'))
 b=float(input('enter second number'))
-operator = (input('enter operattion +,-,*,/ or all'))
+operator = (input('enter operation +,-,*,/ or all'))
 if operator == '+':
  sum=a+b
  print('the sum is',sum)
@@ -23,7 +23,7 @@ elif operator == 'all':
  division=a/b
  print('result=\n',sum,difference,product,division)
 
-else:
+else: 
  print('invalid')
 
 
