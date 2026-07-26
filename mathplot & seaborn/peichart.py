@@ -1,11 +1,15 @@
 import matplotlib.pyplot as plt
 
-x = ['A', 'B', 'C', 'D']
-y = [500, 1000, 1500, 200]
+product = ['A', 'B', 'C', 'D']
+price = [500, 1000, 1500, 200]
 
 plt.title("Price of Products")
-plt.xlabel("Product")
-plt.ylabel("Price")
-plt.pie(x, y, color='red')
+
+plt.pie(
+    price,
+    labels=product,
+    colors=['red', 'blue', 'yellow', 'green'], 
+    autopct='%1.1f%%'
+)
 
 plt.show()
