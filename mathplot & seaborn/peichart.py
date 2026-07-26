@@ -11,5 +11,5 @@ plt.pie(
     colors=['red', 'blue', 'yellow', 'green'], 
     autopct='%1.1f%%'
 )
-
+plt.legend()
 plt.show()
